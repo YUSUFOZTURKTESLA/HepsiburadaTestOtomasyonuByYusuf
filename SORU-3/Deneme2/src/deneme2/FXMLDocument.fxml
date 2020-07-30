@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="601.0" prefWidth="433.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="deneme2.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="13.0" layoutY="561.0" onAction="#testiBaslatAction" prefHeight="26.0" prefWidth="402.0" text="Testi Başlat" />
+        <Label fx:id="label" layoutX="126.0" layoutY="104.0" minHeight="16" minWidth="69" />
+      <Text layoutX="20.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hepsiburada Test Otomasyonu" textAlignment="CENTER" wrappingWidth="402.4">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="choiceBox_Browser" layoutX="18.0" layoutY="77.0" prefHeight="26.0" prefWidth="402.0" />
+      <Label layoutX="21.0" layoutY="52.0" prefHeight="17.0" prefWidth="102.0" text="Browser Secimi" />
+      <Label layoutX="19.0" layoutY="116.0" text="Kayit Yaptırılacak email" />
+      <TextField fx:id="tf_Email" layoutX="14.0" layoutY="139.0" prefHeight="26.0" prefWidth="402.0" />
+      <Label layoutX="228.0" layoutY="446.0" text="Cinsiyet Secimi" />
+      <ChoiceBox fx:id="choiceBox_cinsiyet" layoutX="221.0" layoutY="468.0" prefHeight="26.0" prefWidth="195.0" />
+      <Label layoutX="22.0" layoutY="177.0" text="İsim" />
+      <TextField fx:id="tf_isim" layoutX="14.0" layoutY="195.0" prefHeight="26.0" prefWidth="402.0" />
+      <Label layoutX="21.0" layoutY="230.0" text="Soyisim" />
+      <TextField fx:id="tf_soyisim" layoutX="14.0" layoutY="248.0" prefHeight="26.0" prefWidth="402.0" />
+      <PasswordField fx:id="pf_sifre" layoutX="14.0" layoutY="366.0" prefHeight="26.0" prefWidth="402.0" />
+      <Label layoutX="21.0" layoutY="349.0" text="Sifre" />
+      <Label layoutX="18.0" layoutY="501.0" text="Dogum Tarihi" />
+      <TextField fx:id="tf_gunTarih" layoutX="46.0" layoutY="519.0" prefHeight="26.0" prefWidth="61.0" />
+      <Label layoutX="18.0" layoutY="524.0" text="Gün" />
+      <Label layoutX="116.0" layoutY="524.0" text="Ay" />
+      <TextField fx:id="tf_ayTarih" layoutX="150.0" layoutY="520.0" prefHeight="26.0" prefWidth="90.0" />
+      <Label layoutX="261.0" layoutY="524.0" text="Yil" />
+      <TextField fx:id="tf_yilTarih" layoutX="293.0" layoutY="519.0" prefHeight="26.0" prefWidth="122.0" />
+      <Label layoutX="17.0" layoutY="288.0" text="Adres" />
+      <TextField fx:id="tf_adres" layoutX="14.0" layoutY="306.0" prefHeight="30.0" prefWidth="402.0" />
+      <Label layoutX="226.0" layoutY="393.0" text="Şehir" />
+      <TextField fx:id="tf_sehir" layoutX="221.0" layoutY="415.0" prefHeight="26.0" prefWidth="195.0" />
+      <TextField fx:id="tf_phone" layoutX="14.0" layoutY="415.0" prefHeight="26.0" prefWidth="186.0" />
+      <Label layoutX="19.0" layoutY="398.0" text="Telefon" />
+      <Label layoutX="18.0" layoutY="450.0" text="Posta Kodu" />
+      <TextField fx:id="tf_postaKodu" layoutX="14.0" layoutY="467.0" prefHeight="26.0" prefWidth="186.0" />
+    </children>
+</AnchorPane>
